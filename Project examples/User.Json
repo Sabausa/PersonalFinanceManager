@@ -1,0 +1,61 @@
+[
+    {
+        "Id" : 1,
+        "FirstName" : "Saba",
+        "LastName" : "Usanetashvili",
+        "Settings" : {
+            "PreferedLanguage" : "KA",
+            "PreferedCurrency" : "GEL",
+            "ScreenMode" : "DARK"   
+        },
+        "Expendure" : {
+            "CurrentMonth" : {
+                "TotalAmount" : 900,
+                "ExpenseList" : [
+                    {
+                        "Amount" : 500,
+                        "Currency" : "GEL",
+                        "Type" : "RENT"
+                    },
+                    {
+                        "Amount" : 122.14,
+                        "Currency" : "GEL",
+                        "Type" : "GROCERIES"
+                    }
+                ]
+            },
+            "History" : [
+                {
+                    "Name" : "July24",
+                    "TotalAmount" : 1300,
+                    "ExpenseList" : [
+                        {
+                            "Amount" : 500,
+                            "Currency" : "GEL",
+                            "Type" : "RENT"
+                        },
+                        {
+                            
+                            "Amount" : 122.14,
+                            "Currency" : "GEL",
+                            "Type" : "GROCERIES"
+                        }
+                    ]
+                }
+
+            ]
+        },
+        "Income" : {
+            "CurrentMonth" : {
+                "TotalAmount" : 1900, 
+                "IncomeList" : [
+                    {
+                        "Amount" : 1900,
+                        "Currency" : "GEL",
+                        "Type" : "UNSPECIFIED"
+                    }
+                ]
+            }
+        }
+    }
+]
